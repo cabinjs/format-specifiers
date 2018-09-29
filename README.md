@@ -37,11 +37,11 @@ yarn add format-specifiers
 ```js
 const formatSpecifiers = require('format-specifiers');
 
-console.log('formatSpecifiers', formatSpecifiers);
+console.log(formatSpecifiers);
 ```
 
 ```sh
-
+[ '%s', '%d', '%i', '%f', '%j', '%o', '%O', '%%' ]
 ```
 
 
@@ -57,7 +57,7 @@ console.log('formatSpecifiers', formatSpecifiers);
 [MIT](LICENSE) © [Nick Baugh](http://niftylettuce.com/)
 
 
-## 
+##
 
 [npm]: https://www.npmjs.com/
 
